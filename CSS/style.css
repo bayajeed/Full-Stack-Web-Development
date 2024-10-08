@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* List Start */
+ul{
+    border: 1px solid gray;
+    list-style-position: inside;
+}
+li{
+    border: 1px solid lightgray;
+    list-style-image: url(./icon/arrow-right-solid.svg);
+    padding-left: 10px;
+    font-family: "Roboto";
+}
+/* List End */
+
+/* font start */
+h4{
+    font-family: "Roboto";
+    background-color: aqua;
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div ~ p{
+    font-family: "Roboto";
+    background-color:rgb(122, 152, 178);
+    text-transform: capitalize;
+    padding: 1rem;
+}
+div +  h3{
+    background-color: antiquewhite;
+}
+section > p{
+    font-family: "Noto Sans Bengali";
+    font-weight: 700;
+    letter-spacing: normal;
+    word-spacing: .5rem;
+    line-height: 2rem;
+    font-size: 2rem;
+    text-indent: 100px;
+    font-style: italic;
+    text-align: justify;
+    text-shadow: 10px 8px 10px rgb(185, 175, 175);
+    color: rgb(73, 69, 69);
+}
+/* font End */
+
+/* Table Start */
+caption{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: "Roboto";
+}
+table, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    background-color: rgb(54, 75, 54);
+}
+tr:nth-child(odd):not(tfoot tr){
+    background-color: rgb(63, 165, 165);
+}
+tr:nth-child(odd):not(tfoot tr):hover{
+    background-color: #192e43;
+    color: aliceblue;
+}
+tr:nth-child(even):hover{
+    background-color: rgb(3, 71, 92);
+    color: aliceblue;
+}
+tfoot tr{
+    background-color: rgb(38, 30, 30);
+    color: aliceblue;
+}
+td{
+    width: 300px;
+}
+
+/* Table End */

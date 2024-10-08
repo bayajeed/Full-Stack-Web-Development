@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid gray;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.manu ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: start;
+}
+.manu ul li{
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 2px;
+}
+.manu ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: gray;
+}
+.manu ul li:hover{
+    background-color: rgb(190, 188, 188);
+    
+}
+.manu ul li a:hover{
+    color:white;
+    
+}
+
+/* Main area star */
+.icon .fa-solid{
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-size: 35px;
+}
+.prag{
+    padding: 25px;
+    color: gray
+}
+
+/* Media Query */
+/* Tab start */
+@media only screen and (min-width: 500px){
+    .container{
+        margin: 0 auto;
+        border: 2px solid black;
+    
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo img{
+        width: 66px;
+        height: 66px;
+        padding: 5px;
+        cursor: pointer;
+        margin-left: 25px;
+    }
+    .manu ul{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+    }
+    .manu ul li{
+        
+        margin-right: 15px;
+        margin-top: 20px;
+        padding: 5px;
+        cursor: pointer;
+        background-color: gainsboro;
+        border-radius: 2px;
+    }
+    .manu ul li a{
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: gray;
+    }
+    .manu ul li:hover{
+        background-color: rgb(190, 188, 188);
+        
+    }
+    .manu ul li a:hover{
+        color:white;
+        
+    }
+    
+    /* Main area star */
+    .icon .fa-solid{
+        width: 100%;
+        text-align: center;
+        color: tomato;
+        font-size: 35px;
+    }
+    .prag{
+        padding: 25px;
+        color: rgb(133, 113, 179)
+    }
+    
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 768px){
+    .container{
+        margin: 0 auto;
+        border: 2px solid black;
+    
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo img{
+        width: 66px;
+        height: 66px;
+        padding: 5px;
+        cursor: pointer;
+        margin-left: 25px;
+    }
+    .manu ul{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+    }
+    .manu ul li{
+        
+        margin-right: 15px;
+        margin-top: 20px;
+        padding: 5px;
+        cursor: pointer;
+        background-color: gainsboro;
+        border-radius: 2px;
+    }
+    .manu ul li a{
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: gray;
+    }
+    .manu ul li:hover{
+        background-color: rgb(190, 188, 188);
+        
+    }
+    .manu ul li a:hover{
+        color:white;
+        
+    }
+    
+    /* Main area star */
+    .icon .fa-solid{
+        width: 100%;
+        text-align: center;
+        color: green;
+        font-size: 35px;
+    }
+    .prag{
+        padding: 25px;
+        color:rgb(103, 186, 103);
+    }
+}
+
+
+/* PC */
+@media only screen and (min-width: 768px){
+    .container{
+        margin: 0 auto;
+        border: 2px solid black;
+    
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo img{
+        width: 66px;
+        height: 66px;
+        padding: 5px;
+        cursor: pointer;
+        margin-left: 25px;
+    }
+    .manu ul{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+    }
+    .manu ul li{
+        
+        margin-right: 15px;
+        margin-top: 20px;
+        padding: 5px;
+        cursor: pointer;
+        background-color: gainsboro;
+        border-radius: 2px;
+    }
+    .manu ul li a{
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: gray;
+    }
+    .manu ul li:hover{
+        background-color: rgb(190, 188, 188);
+        
+    }
+    .manu ul li a:hover{
+        color:white;
+        
+    }
+    
+    /* Main area star */
+    .icon .fa-solid{
+        width: 100%;
+        text-align: center;
+        color: rgb(58, 0, 128);
+        font-size: 35px;
+    }
+    .prag{
+        padding: 25px;
+        color:rgb(184, 134, 26);
+    }
+}

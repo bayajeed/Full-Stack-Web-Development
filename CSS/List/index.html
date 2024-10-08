@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', sans-serif;;
+        }
+        body{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .card-area{
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            gap: 20px;
+        }
+        .card{
+            border: 1px solid #F2F2F3 ;
+            box-shadow: 5px 5px 25px 5px rgb(217, 235, 240);
+            width: 280px;
+            height: 500px;
+            padding: 10px;
+            line-height: 40px;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        .list-top{
+            list-style-type: none;
+            list-style-image: url(./icon/check-solid.svg);
+            list-style-position: inside;
+        }
+        .list-bottom{
+            list-style-type: none;
+            list-style-image: url(./icon/xmark-solid.svg);
+            list-style-position: inside;
+        }
+        ul li a{
+            text-decoration: none;
+            color: rgb(144, 121, 121);
+        }
+        .title{
+            line-height: 40px;
+        }
+        button{
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: tomato;
+            color: #F2F2F3;
+            font-weight: 900;
+            font-size: large;
+            box-sizing: content-box;
+            padding: 5px;
+            cursor: pointer;
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-area">
+        <div class="card">
+            <div class="title">
+                <img src="./icon/circle-regular.svg" alt="Free"> 
+                <span>Free</span>
+                <p>Lorem ipsum dolor sit quam possimus facere dignissimos nobis.</p>
+                <p><strong>$0</strong> <span>/ month</span></p>
+            </div>
+            <div>
+                <ul class="list-top">
+                    <li><a href="#">2 links</a></li>
+                    <li><a href="#">Own analytics platform</a></li>
+                </ul>
+                <ul class="list-bottom">
+                    <li><a href="#">Chat support</a></li>
+                    <li><a href="#">Mobile Application</a></li>
+                    <li><a href="#">Unlimited users</a></li>
+                </ul>
+            </div>
+            <div class="button">
+                <button>Get Start</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="title">
+                <img src="./icon/circle-regular.svg" alt="Free"> 
+                <span>Free</span>
+                <p>Lorem ipsum dolor sit quam possimus facere dignissimos nobis.</p>
+                <p><strong>$0</strong> <span>/ month</span></p>
+            </div>
+            <div>
+                <ul class="list-top">
+                    <li><a href="#">2 links</a></li>
+                    <li><a href="#">Own analytics platform</a></li>
+                </ul>
+                <ul class="list-bottom">
+                    <li><a href="#">Chat support</a></li>
+                    <li><a href="#">Mobile Application</a></li>
+                    <li><a href="#">Unlimited users</a></li>
+                </ul>
+            </div>
+            <div class="button">
+                <button>Get Start</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="title">
+                <img src="./icon/circle-regular.svg" alt="Free"> 
+                <span>Free</span>
+                <p>Lorem ipsum dolor sit quam possimus facere dignissimos nobis.</p>
+                <p><strong>$0</strong> <span>/ month</span></p>
+            </div>
+            <div>
+                <ul class="list-top">
+                    <li><a href="#">2 links</a></li>
+                    <li><a href="#">Own analytics platform</a></li>
+                </ul>
+                <ul class="list-bottom">
+                    <li><a href="#">Chat support</a></li>
+                    <li><a href="#">Mobile Application</a></li>
+                    <li><a href="#">Unlimited users</a></li>
+                </ul>
+            </div>
+            <div class="button">
+                <button>Get Start</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

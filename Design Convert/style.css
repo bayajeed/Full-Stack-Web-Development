@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --brand-color: #5669FF; 
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: red;
+}
+.manu{
+    width: 80%;
+    height: 92px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 2.5px 2px  20px #e4e1e1;
+    display: flex;
+}
+.logo-area{
+    flex: 1;
+}
+.main-manu-area{
+    flex: 5;
+}
+.manu-button-area{
+    flex: 2;
+}
+.logo img{
+    width: 101px;
+    height: 62px;
+    margin-top: 15px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+ul{
+    height: 92px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li{
+    cursor: pointer;
+    margin-right: 50px;
+    padding: 18px;
+    display: flex;
+}
+ul li a:hover{
+    border-bottom: 2px solid var(--brand-color);
+    color: var(--brand-color);
+    font-weight: 700;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #656161;
+    text-align: center;
+}
+.manu-button{
+    display: flex;
+    justify-content: start;
+    height: 92px;
+    align-items: center;
+}
+.manu-button button{
+    width: 140px;
+    height: 50px;
+    background-color: var(--brand-color);
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Heros Area Start */
+.heros{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+}
+.text-area{
+    background-color: aqua;
+    width: 50%;
+}
+
+.text{
+    margin-top: 125px;
+    font-family: sans-serif;
+    padding: 15px;
+}
+.text h1{
+    line-height: 78px;
+    font-size: 52px;
+    letter-spacing: 3%;
+}
+.text h1 span{
+    color: var(--brand-color);
+    font-weight: 600;
+    letter-spacing: 5%;
+}
+.text p{
+    letter-spacing: 2%;
+    color: #4A4545;
+    line-height: 28px;
+}
+.email input{
+    width: 400px;
+    height: 56px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    box-shadow: 2.5px 2px  20px #e4e1e1;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.email{
+    background-color: blueviolet;
+}
+.right-icon{
+    position: absolute;
+    /* kno z index use korlam */
+    background-color: var(--brand-color);
+    width: 54px;
+    height: 37px;
+    
+    color: #f4f2f2f2;
+    text-align: center;
+    border-radius: 10px;
+    right: 175px;
+    top: 500px;
+}
+.heros-img-area{
+    background-color: blue;
+    width: 50%;
+}
+.welcome{
+    width: 261.04px;
+    min-height: 565.6px;
+}
+.vitamin{
+    width: 332px;
+    height: 720px;
+}
+.heros-img{
+    display: flex;
+}
+
+/* test */
+.prant{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.prant div{
+    width: 100px;
+    height: 120px;
+    border: 2px solid rgb(127, 110, 110);
+    margin: 5px 5px;
+}
+
+.child1{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.child2{
+    position: relative;
+    left: 100px;
+}

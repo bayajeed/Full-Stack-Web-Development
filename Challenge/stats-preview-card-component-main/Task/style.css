@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --Very: hsl(233, 47%, 7%);
+    --Dark: hsl(244, 38%, 16%);
+    --Soft: hsl(277, 64%, 61%);
+
+    --White: hsl(0, 0%, 100%);
+    --Slightly : hsla(0, 0%, 100%, 0.75);
+    --Slightly : hsla(0, 0%, 100%, 0.6);
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+    background-color: var(--Dark);
+    border-radius: 10px;
+    overflow: hidden;
+    
+
+}
+.image{
+    width: 100%;
+    height: 350px;
+    background-image: url(images/image-header-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    filter:drop-shadow(44px);
+    backdrop-filter: drop-shadow(8px 8px 10px green);
+    
+}
+
+.para{
+    padding: 50px;
+}
+.para h1{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: papayawhip;
+}
+.para h1 span{
+    color: var(--Soft);
+}
+
+.para p{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10px;
+    line-height: 30px;
+    padding: 5px;
+    color: papayawhip;
+}

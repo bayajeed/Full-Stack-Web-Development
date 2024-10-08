@@ -1,0 +1,27 @@
+*{margin: 0; padding: 0;}
+
+body{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.video_area{
+    margin-top: 20px;
+}
+.fieldset-area{
+    margin-top: 20px;
+}
+
+.form-area{
+    margin: 10px;
+    padding: 15px;
+}
+
+.lang{
+    margin: 10px 10px 10px 20px;
+}
+.legend{
+    border: none !important;
+    border: 1px dashed #4e4b4b !important;
+    padding: 0px !important;
+}

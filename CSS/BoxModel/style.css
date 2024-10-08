@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0;}
+/* universel Box-sizing: border-box */
+
+.box1{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: tomato;
+    overflow: scroll;
+    border: 2px solid gray;
+    box-shadow: 20px 20px 50px 15px gray;
+}
+.box2{
+    /* by default box-sizing: Content-box thake */
+    box-sizing: content-box;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: tan;
+    overflow: auto;
+}
+
+/* Inline Element Gulake width, height, center, margin dite chaile Disply: inline-block dite hobe */
+a{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    padding-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 55px;
+    margin-left: 99px;
+    
+}

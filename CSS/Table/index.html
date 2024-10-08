@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        .table{
+            background: rgb(29,29,164);
+background: linear-gradient(7deg, rgba(29,29,164,1) 35%, rgba(88,101,176,1) 46%, rgba(75,118,188,1) 53%, rgba(66,129,196,1) 55%, rgba(199,63,139,1) 64%, rgba(135,130,153,1) 72%, rgba(197,183,74,1) 86%, rgba(111,190,128,1) 87%, rgba(2,0,36,1) 93%, rgba(0,212,255,1) 100%);
+            padding: 20px;
+            box-sizing: content-box;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+
+        }
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+
+        }
+        tr:nth-child(odd):not(thead tr):not(tfoot tr){
+            background-color: #2C3844;
+            color: #D0D4D2;
+            
+        }
+        tr:nth-child(odd):not(thead tr):not(tfoot tr):hover{
+            background-color: #8d9eb0;
+            color: #D0D4D2;
+            
+        }
+        tr:nth-child(even){
+            background-color: #202832;
+            color: #D0D4D2;
+        }
+        tr:nth-child(even):hover{
+            background-color: #8d9eb0;
+            color: #D0D4D2;
+        }
+        tfoot, td{
+            text-align: center;
+            color: #D0D4D2;        }
+        button{
+            background-color: #4A918F;
+            color: #D0D4D2;
+            border: 1px solid #aedfdd;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <table>
+            <thead>
+                <th>Provider Name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mohammad Bayajeed</td>
+                    <td>bayajeedbd@gmail.com</td>
+                    <td><button>Select</button></td>
+                </tr>
+                <tr>
+                    <td>Mohammad Bayajeed</td>
+                    <td>bayajeedbd@gmail.com</td>
+                    <td><button>Select</button></td>
+                </tr>
+                <tr>
+                    <td>Mohammad Bayajeed</td>
+                    <td>bayajeedbd@gmail.com</td>
+                    <td><button>Select</button></td>
+                </tr>
+                <tr>
+                    <td>Mohammad Bayajeed</td>
+                    <td>bayajeedbd@gmail.com</td>
+                    <td><button>Select</button></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="3">Year: 2024</td>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
